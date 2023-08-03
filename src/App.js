@@ -20,6 +20,7 @@ import Class from './component/Classr'
 import Gym from './component/Gym'
 import Herbal from './component/Herbalgarden'
 import Library from './component/Library'
+import Gallery from './Pages/Gallery'
 function App() {
   const images = [
     './Images/14.jpeg',
@@ -69,6 +70,7 @@ function App() {
        <Route path = '/lab' element = {<Library/>}/>
        <Route path = '/Herbal' element = {<Herbal/>}/>
        <Route path = '/gym' element = {<Gym/>}/>
+       <Route path = '/gallery' element = {<Gallery/>}/>
       </Routes>
       
       <Page5 /> 
